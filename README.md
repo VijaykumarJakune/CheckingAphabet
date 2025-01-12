@@ -150,7 +150,7 @@ Response: true
 2. **Create a Resource Group:**
    - Navigate to **Resource groups**.
    - Click **Create**.
-   - Enter the **Resource group name** (e.g., `CheckingAlphabetRG`) and select a **Region**.
+   - Enter the **Resource group name** (e.g., `CheckingAlphabetResourceGroup`) and select a **Region**.
    - Click **Review + create** and then **Create**.
 
 3. **Create an App Service Plan:**
