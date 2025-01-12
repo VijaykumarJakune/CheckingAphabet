@@ -139,6 +139,7 @@ Response: true
 8. Input: `"asda@$$ABS"`
    - Output: `false`
 
+---
 
 ## Deployment on Azure
 
@@ -247,5 +248,3 @@ To ensure the application can handle traffic spikes:
 ---
 
 
-
----
