@@ -2,7 +2,7 @@
 
 # Alphabet Checker Web API
 
-This is a **.NET 8 Web API** that checks if a given string contains all the letters of the English alphabet. The API returns `true` if all letters are present and `false` otherwise.
+This is a **.NET 8 Web API** that checks if a given string contains all 26 letters of the English alphabet at least once. The API returns `true` if all letters are present and `false` otherwise.
 
 ---
 
