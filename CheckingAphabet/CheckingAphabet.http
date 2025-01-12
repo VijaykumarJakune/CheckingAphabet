@@ -1,0 +1,6 @@
+@CheckingAphabet_HostAddress = http://localhost:5277
+
+GET {{CheckingAphabet_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
