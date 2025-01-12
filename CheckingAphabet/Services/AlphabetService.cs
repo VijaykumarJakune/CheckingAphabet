@@ -10,14 +10,7 @@
         public bool ContainsAllAplphabets(string input)
         {
 
-            var alphabetSet = new HashSet<char>();
-
-            for (char c = 'a'; c <= 'z'; c++) 
-            { 
-            
-                alphabetSet.Add(c);
-            
-            }
+            var alphabetSet = new HashSet<char>("abcdefghijklmnopqrstuvwxyz");
 
             foreach (char ch in input.ToLower())
             {

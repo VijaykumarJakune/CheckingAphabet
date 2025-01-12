@@ -17,7 +17,7 @@ builder.Services.AddSwaggerGen(options =>
     {
         Title = "Alphabet Checker API",
         Version = "v1",
-        Description = "This API checks whether a string contains all the letters of the alphabet.",
+        Description = "This is a .NET 8 Web API that checks if a given string contains all 26 letters of the English alphabet at least once. The API returns true if all letters are present and false otherwise.",
         Contact = new OpenApiContact
         {
             Name = "Vijaykumar Jakune",
