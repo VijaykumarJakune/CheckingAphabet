@@ -85,8 +85,8 @@ This project includes **Swagger UI** for detailed, interactive API documentation
 **Example:
 Swagger UI showing /api/alphabet/check endpoint with input and response example.**:  
 
-![image](https://github.com/user-attachments/assets/b46b23c2-9e8c-4b86-a7f4-dff12da6ae3d)
 
+![image](https://github.com/user-attachments/assets/ae160607-f10d-4ef1-843e-512959e4c361)
 
 
 ---
