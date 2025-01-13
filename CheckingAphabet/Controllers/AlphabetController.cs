@@ -16,7 +16,12 @@
         
             }
 
-            [HttpGet("check")]
+        /// <summary>
+        /// /// Checks if the input string contains all the alphabets from 'a' to 'z' atleast once.
+        /// </summary>
+        /// <param name="input">The input string to check.</param>
+        /// <returns>True if the input contains all alphabets; otherwise, false.</returns>
+        [HttpGet("check")]
             public IActionResult CheckAlphabets([FromQuery] string input)
             {
                 if (string.IsNullOrEmpty(input))

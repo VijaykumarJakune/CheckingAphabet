@@ -3,7 +3,7 @@
     public class AlphabetService : IAlphabetService
     {
         /// <summary>
-        ///    Checks if the input string contains all the alphabets from 'a' to 'z'.
+        ///    Checks if the input string contains all the alphabets from 'a' to 'z' atleast once.
         /// </summary>
         /// <param name="input">The input string to check.</param>
         /// <returns>True if the input contains all alphabets; otherwise, false.</returns>
@@ -15,7 +15,7 @@
             foreach (char ch in input.ToLower())
             {
                 alphabetSet.Remove(ch);
-                if (!alphabetSet.Any()) 
+                if (!alphabetSet.Any())
                 {
                     return true;
 
